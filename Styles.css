@@ -5,7 +5,13 @@ body{
 	color: #5C6AC4;
 }
 
-        {
+      .Poeme {
+        width: 50%;
+        background-color: #FFF; 
+        border: 5px solid black
+        
+        }
+       html {
             font-family: Verdana;
             text-align: center;
         }
