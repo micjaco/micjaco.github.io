@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage Parfait en Allemagne</title>
+    
+    <style>
+        body {
+            font-family: Verdana;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        
+        
+        h2 {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mon Voyage Parfait en Allemagne</h1>
+    <div class="container">
+        <h2>Destination: Allemagne</h2>
+        <p>L'Allemagne est un pays fascinant avec une riche histoire, des paysages magnifiques et une cuisine délicieuse.</p>
+        <img src="https://www.cia.gov/the-world-factbook/static/67a771b10008c6219f991b3ddf8ccac3/94c48/GM-map.jpg" width="300" alt="Allemagne">
+        
+        <h2>Sites à Voir</h2>
+        <p>Quelques sites à voire:</p>
+        <ul>
+            <p>Le château de Neuschwanstein <br>
+            La porte de Brandebourg à Berlin <br>
+            La cathédrale de Cologne <br>
+            La Forêt-Noire</p>
+        </ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk2XUN-lYA2aP0WFLgbBsxZqTwJ3k6KGAhmw&s" alt="Château de Neuschwanstein">
+        
+        <h2>Nourriture Allemande</h2>
+        <p>Quelques plats typiques:</p>
+        <ul>
+            <p>Bratwurst<br>
+            Pretzels<br>
+            Schnitzel<br>
+            Choucroute</p>
+        </ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlr5QImCRIga2r6SAlJISnpWecue0MaQ6W6w&s" alt="Cuisine allemande">
+    </div>
+</body>
+</html>
