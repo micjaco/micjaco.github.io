@@ -1,38 +1,132 @@
-body{
+/* Définir un espace de 25px autour du corps de la page */
+body {
   padding: 25px;
 }
+
+/* Style pour les titres */
 .title {
-	color: #5C6AC4;
+  color: #5C6AC4; 
 }
 
-      .Poeme {
-        width: 50%;
-        background-color: #FFF; 
-        border: 5px solid black
-        
-        }
-       html {
-            font-family: Verdana;
-            text-align: center;
-        }
+/* Style pour la section "Poème" */
+.Poeme {
+  width: 50%; 
+  background-color: #FFF; 
+  border: 5px solid black; 
+}
 
-        
-        ul {
-            background-color: #111;
-            display: flex; 
-            justify-content: center; 
-        }
+/* Style général pour l'élément html */
+html {
+  font-family: Verdana; 
+  text-align: center; 
+}
 
+/* Style pour la barre de navigation */
+ul {
+  background-color: #111; 
+  display: flex; 
+  justify-content: center; 
+}
 
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none; <!-- enlever les soulignes-->
-        }
+/* Style des liens de la barre de navigation */
+li a {
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
 
+/* Effet de survol des liens de la barre de navigation */
+li a:hover {
+  background-color: #333; 
+}
 
-        li a:hover {
-            background-color: #333;
-        }
+/* Section des liens d'images */
+.image-links {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 50px; 
+}
+
+/* Style pour chaque lien d'image */
+.image-link {
+  margin: 20px; 
+  text-align: center; 
+  border: 2px solid #fff; 
+  padding: 10px; 
+  border-radius: 8px; 
+  width: 200px; 
+}
+
+/* Style des liens d'image  */
+.image-link a {
+  display: block; 
+  text-decoration: none; 
+}
+
+/* Style des images dans les liens */
+.page-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+/* Style pour les textes sous chaque image */
+.image-link p {
+  font-size: 18px; 
+  color: #333; 
+  margin-top: 10px; 
+}
+
+/* Container principal pour le texte et les éléments */
+.container {
+  padding: 20px; 
+  text-align: center; 
+  margin: 0 20px; 
+}
+
+/* Style pour les paragraphes dans le container */
+.container p {
+  color: white; 
+  font-size: 18px; 
+  margin-bottom: 20px; 
+}
+
+/* Style pour les listes dans le container https://www.w3schools.com/css/css3_flexbox_container.asp*/
+.container ul {
+  color: white; 
+  font-size: 18px; 
+  padding-left: 0; 
+  list-style-type: none; 
+  margin-bottom: 20px; 
+}
+
+/* Style pour chaque élément de la liste */
+.container ul li {
+  margin-bottom: 10px; 
+}
+
+/* Style des images dans le container https://www.w3schools.com/css/css3_flexbox_container.asp*/
+.container img {
+  margin-top: 20px; 
+  width: 300px; 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+/* Style des boutons https://www.w3schools.com/css/css3_buttons.asp*/
+button {
+  background-color: #333; 
+  color: white; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+/* Effet de survol du bouton */
+button:hover {
+  background-color: #111; 
+}
+/*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
