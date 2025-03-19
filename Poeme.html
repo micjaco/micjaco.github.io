@@ -1,60 +1,36 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Sonnet 116 - William Shakespeare</title>
+    <!-- Styles pour le boutton -->
     <style>
-        body 
-        {
-            background-color: #add8e6;
-            text-align: center;
-            padding: 20px;
-            font-family: Verdana;
-        }
-         html {
-            font-family: Verdana;
-            text-align: center;
-        }
-
         
-        ul {
-            background-color: #111;
-            display: flex; 
-            justify-content: center; 
-        }
-
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none; <!-- enlever les soulignes-->
-        }
-
-
-        li a:hover {
+        button {
             background-color: #333;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
         }
-        
-       
-        
-            
-            
+
+        button:hover {
+            background-color: #111;
+        }
         
     </style>
 </head>
-<body>
+<body style="background-color: #4498ad;">
     
-    <body style="background-color: #4498ad;">
+    <!-- Barre de Navigation https://www.w3schools.com/css/css_navbar.asp-->
     <ul>
-        <li><a href="#Accueil">Accueil</a></li>
-        <li><a href="#Poem">Poem</a></li>
-        <li><a href="#Voyage Parfait">Voyage Parfait</a></li>
-        <li><a href="#Biographie">Biographie</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Poeme.html">Poeme</a></li>
+        <li><a href="VoyageParfait.html">Voyage Parfait</a></li>
+        <li><a href="Biographie.html">Biographie</a></li>
     </ul>
-        
+
     <h1>Sonnet 116</h1>
     <h2>William Shakespeare</h2>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg" alt="Portrait de William Shakespeare" width="175">
@@ -80,6 +56,16 @@
         If this be error and upon me proved,<br>
         I never writ, nor no man ever loved.
     </p>
+
+    <!-- Boutton pour retourner à l'accueil https://www.w3schools.com/tags/tag_button.asp-->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html">
+            <button>
+                Retour à l'accueil
+            </button>
+        </a>
+    </div>
+
 </body>
 </html>
 
